@@ -114,13 +114,12 @@ img {
 
   /*text-decoration: underline;*/
 }
-.link-nav:hover:after,
-.link-navr:focus::after {
+.link-nav::after,
+.link-nav::after {
   content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
-
   display: flex;
   background-color: #404bbf;
   width: 100%;
