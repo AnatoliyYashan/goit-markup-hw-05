@@ -103,7 +103,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--text-fill-color);
   padding: 24px 0;
   transition: color var(--transition-duration-and-func);
 }
@@ -114,8 +114,10 @@ img {
 
   /*text-decoration: underline;*/
 }
-.link-nav::after,
-.link-nav::after {
+.use {
+  color: var(--focus-nav-ccolor);
+}
+.use::after {
   content: '';
   position: absolute;
   left: 0;
